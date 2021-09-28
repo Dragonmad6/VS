@@ -83,5 +83,17 @@
   <ItemGroup>
     <None Include="Resources\Microwave_Oven_Bell_01_Sound_Effect_Mp3_372.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hambueguesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muslito.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

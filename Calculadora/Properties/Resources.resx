@@ -121,4 +121,16 @@
   <data name="Microwave_Oven_Bell_01_Sound_Effect_Mp3_372" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Microwave_Oven_Bell_01_Sound_Effect_Mp3_372.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="hambueguesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hambueguesa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muslito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muslito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

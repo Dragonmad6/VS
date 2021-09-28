@@ -61,11 +61,51 @@ namespace Calculadora.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hambueguesa {
+            get {
+                object obj = ResourceManager.GetObject("hambueguesa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Microwave_Oven_Bell_01_Sound_Effect_Mp3_372 {
             get {
                 return ResourceManager.GetStream("Microwave_Oven_Bell_01_Sound_Effect_Mp3_372", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muslito {
+            get {
+                object obj = ResourceManager.GetObject("muslito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pizza {
+            get {
+                object obj = ResourceManager.GetObject("pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap taco {
+            get {
+                object obj = ResourceManager.GetObject("taco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

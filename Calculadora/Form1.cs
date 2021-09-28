@@ -14,6 +14,7 @@ namespace Calculadora
     public partial class Calculadora : Form
     {
         //Variables
+        private int tiempo;
         double primero;
         double segundo;
         double resultado;
@@ -27,7 +28,7 @@ namespace Calculadora
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            timer1.Start();
         }
         private void button8_Click(object sender, EventArgs e)
         {
@@ -119,6 +120,7 @@ namespace Calculadora
         private void button15_Click(object sender, EventArgs e)
         {
             segundo = double.Parse(textBox1.Text);
+           
             
             switch (operacion)
             {
@@ -142,6 +144,45 @@ namespace Calculadora
                     textBox1.Text = resultado.ToString();
                     break;
             }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            tiempo++;
+            label1.Text = tiempo.ToString();
+
+            if(label1.Text == "")
+            {
+
+            }
+            if (label1.Text == "")
+            {
+
+            }
+            if (label1.Text == "")
+            {
+
+            }
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
