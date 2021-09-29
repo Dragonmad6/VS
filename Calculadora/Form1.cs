@@ -166,23 +166,43 @@ namespace Calculadora
             tiempo++;
             label1.Text = tiempo.ToString();
 
-            if(label1.Text == "")
+            if(label1.Text == "60")
             {
-
+                pictureBox3.Visible = true;
+                pictureBox4.Visible = false;
+                pictureBox5.Visible = false;
+                pictureBox2.Visible = false;
             }
-            if (label1.Text == "")
+            if (label1.Text == "120")
             {
-
+                pictureBox3.Visible = false;
+                pictureBox4.Visible = true;
+                pictureBox5.Visible = false;
+                pictureBox2.Visible = false;
             }
-            if (label1.Text == "")
+            if (label1.Text == "180")
             {
-
+                pictureBox3.Visible = false;
+                pictureBox4.Visible = false;
+                pictureBox5.Visible = true;
+                pictureBox2.Visible = false;
+            }
+            if (label1.Text == "230")
+            {
+                pictureBox3.Visible = false;
+                pictureBox4.Visible = false;
+                pictureBox5.Visible = false;
+                pictureBox2.Visible = true;
             }
         }
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
         }
     }
 }
